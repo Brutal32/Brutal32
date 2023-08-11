@@ -1,16 +1,19 @@
-### Hi there 👋
+```py
+from GitHubProfile import ReadMe
 
-<!--
-**Brutal32/Brutal32** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Profile(ReadMe):
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __init__(self):
+        self.username = "Brutal32"
+        self.contacts = {
+            "Discord": "brutal32.",
+            "Discord Server": "https://discord.gg/QZpNbMs2na"
+        }
+        self.skill = {
+            "Skill 1": "Coding",
+            "Skill 2": "Skid :)",
+            "Skill 3": "Eating your pizza and eating my pizza :)",
+        }
+        self.country = "Vietnam"
+        self.credit = "Thanks dropout1337 for good readme profile <3"
+```
