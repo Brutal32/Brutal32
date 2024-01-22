@@ -7,7 +7,7 @@ class Profile(ReadMe):
         self.username = "Brutal32"
         self.contacts = {
             "Discord": "brutal32.",
-            "Discord Server": "https://discord.gg/QZpNbMs2na"
+            "Discord Server": "https://discord.gg/mf9h2qA82X"
         }
         self.skill = {
             "Skill 1": "Coding",
